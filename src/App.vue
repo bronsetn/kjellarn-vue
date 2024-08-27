@@ -5,14 +5,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Kjellarn trapp" class="logo" src="@/assets/images/trapp-hvit.png" width="200" height="200" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Et kreativt kollektiv" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Hjem</RouterLink>
+        <RouterLink to="/info">Kontaktinfo</RouterLink>
       </nav>
     </div>
   </header>
@@ -22,7 +22,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  line-height: 1.5;
   max-height: 100vh;
 }
 
@@ -33,9 +32,8 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 nav a.router-link-exact-active {
